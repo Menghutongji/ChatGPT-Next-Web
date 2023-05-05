@@ -4,9 +4,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入你自己的API Key使用
-今日免费API Key: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
-添加AI技术交流群823087064可购买账号和API，或到个人网站www.chatgptbuy.top进行购买",
+      "现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入你自己的API Key使用；今日免费API Key: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；添加AI技术交流群823087064可购买账号和API，或到个人网站www.chatgptbuy.top进行购买",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
