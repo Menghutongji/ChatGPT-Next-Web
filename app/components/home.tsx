@@ -117,20 +117,21 @@ function Screen() {
           <Route path={Path.Chat} element={<Chat />} />
           <Route path={Path.Settings} element={<Settings />} />
         </Routes>
-      </div>
+      </div>      
       
-      {/* 在 window-actions 元素中添加新按钮 */}
+      // 在 window-actions 元素中添加新按钮
       <div className={styles["window-actions"]}>
-        {/* 其他 window-actions-button 元素... */}
-        
         {/* 添加一个新的 window-actions-button 元素 */}
         <div className={`${styles["window-actions-button"]} ${styles["new-window-action-button"]}`}>
           <a href="http://your-personal-website.com" target="_blank" rel="noopener noreferrer">
-            {/* 您可以在这里放置一个图标或文本 */}
-            <img src="your-icon-path" alt="Your Icon" />
+            {/* 使用现有的 auto.svg 图标 */}
+            <img src="/app/icons/auto.svg" alt="Auto Icon" />
           </a>
         </div>
+
+        {/* 其他 window-actions-button 元素... */}
       </div>
+
       
     </div>
   );
