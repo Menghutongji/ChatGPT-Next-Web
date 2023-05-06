@@ -632,7 +632,21 @@ export function Chat() {
             {Locale.Chat.SubTitle(session.messages.length)}
           </div>
         </div>
+                                                  
         <div className="window-actions">
+          {/* 在 window-actions 元素中添加新按钮 */}
+          <div className={`window-action-button ${styles.new-window-action-button}`}>
+            <IconButton
+              icon={<img src="/path/to/your/icons/folder/auto.svg" alt="Auto Icon" />}
+              bordered
+              onClick={() => window.open('http://your-personal-website.com', '_blank')}
+            />
+          </div>
+
+          {/* 现有的 window-action-button 元素... */}
+          {/* 保留现有代码 */}
+        </div>
+                                      
           <div className={"window-action-button" + " " + styles.mobile}>
             <IconButton
               icon={<ReturnIcon />}
