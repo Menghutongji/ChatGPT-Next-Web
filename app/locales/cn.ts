@@ -1,10 +1,10 @@
 import { SubmitKey } from "../store/config";
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "不要点我啦，还没开发好……",
   Error: {
     Unauthorized:
-      "1.现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码或个人API Key开始使用\n2.密码是：zxcvbnm,使用方法和今日免费API Key请到help.chatgptbuy.top查看\n3.可添加AI技术交流群823087064或到个人网站www.chatgptbuy.top购买原版账号或API Key",
+      "1.现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码或个人API Key开始使用\n2.访问密码是：zxcvbnm,免费API Key和使用方法请分别点击右上角购物车与问号查看",
   }, 
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
