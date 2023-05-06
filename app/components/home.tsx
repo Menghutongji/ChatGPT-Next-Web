@@ -108,27 +108,6 @@ function Screen() {
       }
     >
       <SideBar className={isHome ? styles["sidebar-show"] : ""} />
-
-      {/* 添加第一个文本链接 */}
-      <div className={`${styles["external-link-text-container1"]}`}>
-        <a href="https://help.chatgptbuy.top/?p=32" target="_blank" rel="noopener noreferrer">
-          免费API_Key
-        </a>
-      </div>
-      
-      {/* 添加第二个文本链接 */}
-      <div className={`${styles["external-link-text-container2"]}`}>
-        <a href="https://help.chatgptbuy.top/?p=1" target="_blank" rel="noopener noreferrer">
-          使用说明
-        </a>
-      </div> 
-      
-      {/* 添加第三个文本链接 */}
-      <div className={`${styles["external-link-text-container3"]}`}>
-        <a href="https://www.chatgptbuy.top" target="_blank" rel="noopener noreferrer">
-          API购买链接
-        </a>
-      </div> 
       
       <div className={styles["window-content"]} id={SlotID.AppBody}>
         <Routes>
