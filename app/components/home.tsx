@@ -110,7 +110,7 @@ function Screen() {
       <SideBar className={isHome ? styles["sidebar-show"] : ""} />
 
       {/* 添加一个文本链接 */}
-      <div className="external-link-text-container">
+      <div className={`${styles["external-link-text-container"]}`}>
         <a href="http://example.com" target="_blank" rel="noopener noreferrer">
           购买链接
         </a>
