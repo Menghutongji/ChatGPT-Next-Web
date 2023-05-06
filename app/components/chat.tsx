@@ -16,6 +16,7 @@ import MinIcon from "../icons/min.svg";
 import ResetIcon from "../icons/reload.svg";
 // 导入其他图标...
 import HelpIcon from "../icons/help.svg";
+import MarketIcon from "../icons/market.svg";
 
 import LightIcon from "../icons/light.svg";
 import DarkIcon from "../icons/dark.svg";
@@ -650,7 +651,7 @@ export function Chat() {
                                                       
           <div className="window-action-button">
             <IconButton
-              icon={<AutoIcon />}
+              icon={<MarketIcon />}
               bordered
               onClick={() => window.open('https://www.chatgptbuy.top', '_blank')}
             />
