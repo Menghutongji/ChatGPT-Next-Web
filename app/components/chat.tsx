@@ -650,7 +650,15 @@ export function Chat() {
             <IconButton
               icon={<AutoIcon />}
               bordered
-              onClick={() => window.open('http://your-personal-website.com', '_blank')}
+              onClick={() => window.open('https://www.chatgptbuy.top', '_blank')}
+            />
+          </div>          
+                                                      
+          <div className="window-action-button">
+            <IconButton
+              icon={<AutoIcon />}
+              bordered
+              onClick={() => window.open('https://help.chatgptbuy.top/?p=1', '_blank')}
             />
           </div>
                                                                                   
