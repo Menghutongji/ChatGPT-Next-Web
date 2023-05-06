@@ -403,6 +403,16 @@
   position: relative;
 }
 
+/* 其他样式... */
+
+.external-link-text-container {
+  position: absolute;
+  right: 80px; /* 水平位置调整 */
+  top: 80px; /* 垂直位置调整 */
+  /* 可以在此处添加更多样式，例如颜色、字体大小等 */
+}
+
+
 .chat-message-top-actions {
   font-size: 12px;
   position: absolute;
