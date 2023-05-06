@@ -4,8 +4,8 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized:
-      '1.现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码或个人API Key开始使用\n2.密码是：zxcvbnm，使用方法和今日免费API Key请访问<a href="http://help.example.com" target="_blank">帮助文档</a>\n3.可添加AI技术交流群823087064或访问<a href="http://www.example.com" target="_blank">个人网站</a>购买原版账号或API Key',
-  }
+      "1.现在是未授权状态，请点击左下角[设置](/#/settings)按钮输入访问密码或个人API Key开始使用\n2.密码是：zxcvbnm,使用方法和今日免费API Key请到help.chatgptbuy.top查看\n3.可添加AI技术交流群823087064或到个人网站www.chatgptbuy.top购买原版账号或API Key",
+  }, 
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
