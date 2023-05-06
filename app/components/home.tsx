@@ -15,6 +15,9 @@ import dynamic from "next/dynamic";
 import { Path, SlotID } from "../constant";
 import { ErrorBoundary } from "./error";
 
+import Image from 'next/image';
+
+
 import {
   HashRouter as Router,
   Routes,
@@ -119,14 +122,13 @@ function Screen() {
         </Routes>
       </div>      
       
-      // 在 window-actions 元素中添加新按钮
       <div className={styles["window-actions"]}>
         {/* 在 window-actions 元素中添加新按钮 */}
         {/* 添加一个新的 window-actions-button 元素 */}
         <div className={`${styles["window-actions-button"]} ${styles["new-window-action-button"]}`}>
           <a href="http://your-personal-website.com" target="_blank" rel="noopener noreferrer">
             {/* 使用现有的 auto.svg 图标 */}
-            <img src="/app/icons/auto.svg" alt="Auto Icon" />
+            <Image src="/app/icons/auto.svg" alt="Auto Icon" width={20} height={20} />
           </a>
         </div>
 
