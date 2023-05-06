@@ -634,7 +634,6 @@ export function Chat() {
         </div>
                                                   
         <div className="window-actions">
-
                                       
           <div className={"window-action-button" + " " + styles.mobile}>
             <IconButton
@@ -646,9 +645,10 @@ export function Chat() {
           </div>
                                                       
           {/* 在 window-actions 元素中添加新按钮 */}
-          <div className={`window-action-button ${styles.new-window-action-button}`}>
+                                                      
+          <div className="window-action-button">
             <IconButton
-              icon={<img src="../icons/auto.svg" alt="Auto Icon" />}
+              icon={<AutoIcon />}
               bordered
               onClick={() => window.open('http://your-personal-website.com', '_blank')}
             />
