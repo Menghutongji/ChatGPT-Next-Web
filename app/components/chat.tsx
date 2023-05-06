@@ -14,6 +14,8 @@ import MaskIcon from "../icons/mask.svg";
 import MaxIcon from "../icons/max.svg";
 import MinIcon from "../icons/min.svg";
 import ResetIcon from "../icons/reload.svg";
+// 导入其他图标...
+import HelpIcon from "../icons/help.svg";
 
 import LightIcon from "../icons/light.svg";
 import DarkIcon from "../icons/dark.svg";
@@ -656,7 +658,7 @@ export function Chat() {
                                                       
           <div className="window-action-button">
             <IconButton
-              icon={<AutoIcon />}
+              icon={<HelpIcon />}
               bordered
               onClick={() => window.open('https://help.chatgptbuy.top/?p=1', '_blank')}
             />
