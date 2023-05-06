@@ -669,19 +669,23 @@ export function Chat() {
               onClick={renameSession}
             />
           </div>
-          <div className="window-action-button">
-            <IconButton
-              icon={<ExportIcon />}
-              bordered
-              title={Locale.Chat.Actions.Export}
-              onClick={() => {
-                exportMessages(
-                  session.messages.filter((msg) => !msg.isError),
-                  session.topic,
-                );
-              }}
-            />
-          </div>
+          
+          {!isMobileScreen && (                                     
+            <div className="window-action-button">
+              <IconButton
+                icon={<ExportIcon />}
+                bordered
+                title={Locale.Chat.Actions.Export}
+                onClick={() => {
+                  exportMessages(
+                    session.messages.filter((msg) => !msg.isError),
+                    session.topic,
+                  );
+                }}
+              />
+            </div>
+          )}
+                                                 
           {!isMobileScreen && (
             <div className="window-action-button">
               <IconButton
