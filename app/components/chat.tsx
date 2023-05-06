@@ -637,7 +637,7 @@ export function Chat() {
           {/* 在 window-actions 元素中添加新按钮 */}
           <div className={`window-action-button ${styles.new-window-action-button}`}>
             <IconButton
-              icon={<img src="/path/to/your/icons/folder/auto.svg" alt="Auto Icon" />}
+              icon={<img src="app/icons/auto.svg" alt="Auto Icon" />}
               bordered
               onClick={() => window.open('http://your-personal-website.com', '_blank')}
             />
