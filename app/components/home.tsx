@@ -23,6 +23,7 @@ import {
 } from "react-router-dom";
 import { SideBar } from "./sidebar";
 import { useAppConfig } from "../store/config";
+import { Button } from 'antd'; // 假设您使用的是Ant Design作为UI库
 
 export function Loading(props: { noLogo?: boolean }) {
   return (
@@ -109,6 +110,13 @@ function Screen() {
     >
       <SideBar className={isHome ? styles["sidebar-show"] : ""} />
 
+      {/* 添加一个按钮以链接到外部网页 */}
+      <div className="external-link-button-container">
+        <a href="http://example.com" target="_blank" rel="noopener noreferrer">
+          <Button type="primary">打开外部网页</Button>
+        </a>
+      </div>
+      
       <div className={styles["window-content"]} id={SlotID.AppBody}>
         <Routes>
           <Route path={Path.Home} element={<Chat />} />
