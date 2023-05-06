@@ -121,6 +121,7 @@ function Screen() {
       
       // 在 window-actions 元素中添加新按钮
       <div className={styles["window-actions"]}>
+        {/* 在 window-actions 元素中添加新按钮 */}
         {/* 添加一个新的 window-actions-button 元素 */}
         <div className={`${styles["window-actions-button"]} ${styles["new-window-action-button"]}`}>
           <a href="http://your-personal-website.com" target="_blank" rel="noopener noreferrer">
@@ -131,7 +132,6 @@ function Screen() {
 
         {/* 其他 window-actions-button 元素... */}
       </div>
-
       
     </div>
   );
